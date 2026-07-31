@@ -1,0 +1,101 @@
+payment_id,invoice_id,payment_date,amount,payment_method,status
+1,112,2025-10-24,104937.84,ACH,Pending
+2,5,2026-06-28,111781.0,ACH,Completed
+3,12,2026-04-04,138320.64,Wire Transfer,Failed
+4,113,2026-05-10,88236.11,Wire Transfer,Completed
+5,104,2026-01-12,8093.74,Credit Card,Pending
+6,5,2026-07-20,167008.96,ACH,Completed
+7,112,2025-10-19,134352.96,Credit Card,Completed
+8,43,2026-02-06,8071.79,Check,Pending
+9,100,2026-08-22,240991.14,ACH,Completed
+10,6,2026-02-08,104922.91,Credit Card,Pending
+11,100,2026-08-21,128653.26,ACH,Failed
+12,111,2026-02-20,308559.53,Credit Card,Pending
+13,6,2026-01-31,135929.57,Check,Failed
+14,111,2026-02-13,168692.91,ACH,Completed
+15,55,2026-05-06,153310.16,Check,Failed
+16,113,2026-04-17,219037.29,Credit Card,Completed
+17,112,2025-10-11,151404.79,ACH,Pending
+18,33,2025-08-13,333340.54,Credit Card,Failed
+19,6,2026-01-21,131735.53,Credit Card,Failed
+20,17,2025-09-18,73759.74,Wire Transfer,Completed
+21,85,2025-10-09,14846.64,Credit Card,Failed
+22,104,2025-12-20,8852.8,Check,Failed
+23,100,2026-08-25,237831.38,Credit Card,Failed
+24,118,2026-06-30,132341.58,Wire Transfer,Completed
+25,21,2026-03-07,110110.61,Check,Pending
+26,85,2025-10-20,45190.9,Wire Transfer,Completed
+27,114,2026-04-22,158307.25,Check,Pending
+28,2,2026-04-28,232064.37,ACH,Pending
+29,68,2025-09-26,241331.14,Wire Transfer,Completed
+30,100,2026-08-24,197108.77,Credit Card,Pending
+31,101,2025-11-13,272942.03,Wire Transfer,Pending
+32,33,2025-09-03,219497.45,ACH,Completed
+33,21,2026-03-05,119809.44,Check,Completed
+34,113,2026-05-05,121519.25,Check,Pending
+35,113,2026-05-02,238961.45,Wire Transfer,Failed
+36,40,2026-02-05,140253.76,ACH,Failed
+37,17,2025-09-05,193187.6,Credit Card,Completed
+38,33,2025-09-06,173958.51,Check,Failed
+39,54,2025-12-17,78838.19,Credit Card,Failed
+40,17,2025-10-07,161746.93,Credit Card,Pending
+41,43,2026-02-25,15871.16,Credit Card,Completed
+42,17,2025-10-11,227063.73,Credit Card,Completed
+43,6,2026-02-18,108434.47,Wire Transfer,Pending
+44,54,2025-11-28,93849.35,Check,Completed
+45,79,2026-07-07,210660.16,Check,Pending
+46,26,2025-11-04,18525.5,Wire Transfer,Failed
+47,112,2025-09-30,148874.41,Credit Card,Failed
+48,33,2025-08-15,333944.61,Check,Pending
+49,118,2026-06-18,166598.95,ACH,Failed
+50,113,2026-05-09,111972.06,ACH,Completed
+51,100,2026-07-25,121607.15,Credit Card,Pending
+52,79,2026-06-18,327263.79,ACH,Pending
+53,114,2026-04-17,172055.3,Wire Transfer,Pending
+54,85,2025-10-18,30215.51,Check,Completed
+55,33,2025-08-28,249403.98,Wire Transfer,Failed
+56,68,2025-09-14,141297.2,Wire Transfer,Failed
+57,12,2026-04-18,104126.69,Wire Transfer,Pending
+58,101,2025-11-18,227396.55,Wire Transfer,Failed
+59,68,2025-09-27,205015.62,Wire Transfer,Pending
+60,43,2026-02-09,11572.01,Check,Completed
+61,85,2025-09-19,27995.66,Wire Transfer,Failed
+62,101,2025-10-24,246149.23,ACH,Pending
+63,101,2025-10-22,167845.15,Credit Card,Completed
+64,79,2026-07-08,212565.09,Credit Card,Completed
+65,111,2026-02-20,408752.72,Wire Transfer,Completed
+66,54,2026-01-02,87474.19,Credit Card,Failed
+67,12,2026-03-26,63822.86,ACH,Failed
+68,55,2026-04-19,235858.55,ACH,Failed
+69,101,2025-11-23,380287.59,ACH,Failed
+70,68,2025-08-27,205548.1,Check,Failed
+71,114,2026-04-14,85668.2,Credit Card,Pending
+72,118,2026-05-22,251131.95,Check,Failed
+73,85,2025-09-27,34706.15,Wire Transfer,Pending
+74,26,2025-10-29,34765.47,Check,Pending
+75,85,2025-10-10,42237.97,Wire Transfer,Failed
+76,100,2026-08-01,132505.65,ACH,Completed
+77,79,2026-07-16,122778.04,Wire Transfer,Pending
+78,104,2025-12-24,14676.03,Credit Card,Pending
+79,21,2026-03-13,74732.68,Check,Pending
+80,17,2025-09-02,182699.4,Check,Completed
+81,6,2026-01-17,60610.6,Credit Card,Pending
+82,114,2026-04-23,150781.4,Credit Card,Completed
+83,111,2026-03-03,424007.49,Wire Transfer,Completed
+84,54,2025-12-12,107691.46,Wire Transfer,Completed
+85,104,2025-12-11,10099.18,Credit Card,Pending
+86,118,2026-06-05,224373.12,ACH,Failed
+87,26,2025-12-12,21088.93,Wire Transfer,Pending
+88,111,2026-03-20,298514.36,Wire Transfer,Completed
+89,118,2026-06-26,403415.39,Check,Completed
+90,112,2025-10-03,99074.1,Check,Pending
+91,112,2025-10-19,133153.47,ACH,Completed
+92,21,2026-04-12,102184.84,Check,Pending
+93,2,2026-04-17,81037.12,Wire Transfer,Failed
+94,26,2025-12-07,47215.53,ACH,Pending
+95,54,2025-12-11,80314.72,Credit Card,Pending
+96,113,2026-04-28,204474.89,Check,Pending
+97,43,2026-01-31,13093.03,Check,Pending
+98,12,2026-05-03,89589.94,ACH,Failed
+99,111,2026-03-19,432934.08,Credit Card,Pending
+100,54,2025-12-10,109701.38,ACH,Completed

@@ -1,0 +1,81 @@
+address_id,customer_id,address_type,street,city,state,postal_code
+1,58,Shipping,57775 Tucker Coves Apt. 914,New James,Washington,82633
+2,97,Billing,108 Lisa Prairie,Hammondborough,Arizona,72799
+3,82,Shipping,872 Long Trail Suite 278,South Michaeltown,Texas,31811
+4,99,Headquarters,272 Ashley Port,Lake Jessica,Minnesota,05798
+5,63,Headquarters,3145 Brad Ford,Paulmouth,Arizona,05731
+6,31,Shipping,84498 Nicholas Lane Suite 918,Nicholasbury,North Dakota,53695
+7,57,Billing,7790 Scott Forks Apt. 843,East Eric,Rhode Island,94519
+8,92,Shipping,365 Timothy Neck,Clarkburgh,Tennessee,54358
+9,31,Shipping,02992 Crystal Canyon,North Gabriel,Idaho,68218
+10,43,Shipping,904 Jay Rest Suite 723,Burkeshire,Wyoming,24340
+11,70,Billing,57991 Nicholas Curve Apt. 038,Serranoville,Idaho,62874
+12,18,Billing,811 Hopkins Rapids,Port Erikachester,North Dakota,55640
+13,30,Shipping,86376 Chapman Streets Apt. 624,Cannonland,Maine,78920
+14,89,Billing,3009 April Lane Apt. 565,East Ronaldshire,Kentucky,34750
+15,91,Billing,594 Fischer Loop Suite 258,Kingport,Oregon,45636
+16,9,Shipping,213 Logan Estates Apt. 386,Laurenton,Hawaii,51501
+17,53,Shipping,27961 Jose Land,New Benjaminfurt,Montana,80974
+18,70,Shipping,902 Gonzales Flats Suite 309,New Gavin,Arizona,47652
+19,54,Billing,021 Chan Knoll,Sullivanborough,North Dakota,02515
+20,27,Shipping,84895 Richmond Harbor,New Sylvia,New Jersey,53448
+21,50,Headquarters,2681 Wesley Junctions,Port Williamview,Ohio,75853
+22,90,Billing,769 Carrillo Throughway Suite 779,South Darrenland,Missouri,83556
+23,98,Headquarters,356 Black Branch,Johnland,Montana,88803
+24,49,Shipping,82755 Patricia Grove Apt. 373,Lake John,Kentucky,27603
+25,1,Shipping,39521 Samantha Springs,Austinside,Arizona,63715
+26,39,Shipping,579 Henry Track Suite 639,North Alicia,Nevada,63195
+27,54,Headquarters,562 Bray Square,Stewarttown,Alabama,88857
+28,96,Headquarters,9155 Lopez Greens,West Thomas,South Carolina,45471
+29,70,Headquarters,76365 Dickerson Harbors Suite 292,Port Cory,Louisiana,31408
+30,29,Shipping,3227 Gregory Parks Apt. 885,Evansside,Oregon,06754
+31,29,Shipping,20347 Shannon Isle Suite 558,Mauricechester,Delaware,46519
+32,56,Shipping,982 Kelly Spring,Hamptonmouth,Colorado,50448
+33,4,Shipping,2256 Sweeney Cliffs Apt. 253,Loganport,Virginia,35559
+34,44,Headquarters,7598 Gutierrez Ferry Apt. 234,East Garrettville,Connecticut,08862
+35,87,Shipping,006 Dalton River Apt. 164,East Joan,New Hampshire,82615
+36,93,Billing,82005 Lin Mountain,Amyberg,Vermont,71186
+37,60,Billing,979 Mills Route,Reginafort,Ohio,30271
+38,80,Headquarters,4564 Kevin Alley,West Justin,Ohio,01591
+39,4,Shipping,4064 Laura Plaza Suite 368,Fosterburgh,Virginia,97116
+40,76,Headquarters,3416 Zachary Union Suite 484,Lopezland,Idaho,18408
+41,85,Billing,79749 Lopez Brook Apt. 080,North Julian,Florida,94243
+42,11,Headquarters,031 Alexis Forge Suite 647,Steventon,Michigan,11016
+43,55,Billing,46187 James Ville,Lisatown,Delaware,94175
+44,60,Billing,7303 Moss Court,South Paul,Maryland,42845
+45,7,Shipping,088 Jon Route,Jameston,Texas,29046
+46,49,Shipping,65024 Randy Gardens,North Biancafort,Vermont,78647
+47,28,Shipping,1327 Gina Junction,North Michaelberg,Vermont,70801
+48,42,Shipping,73585 Quinn Brooks,Howardberg,Kentucky,05676
+49,98,Shipping,784 Lopez Ferry Suite 574,North Amanda,New Hampshire,39255
+50,36,Shipping,570 Gross Brook Suite 935,Lake Tammyfurt,Illinois,69191
+51,33,Billing,294 Ortiz Islands Apt. 181,Port Sharonburgh,Arizona,26987
+52,61,Billing,3109 Barrett Pine,Brandonbury,Rhode Island,94590
+53,96,Headquarters,37170 Grant Mall,Lauraton,South Carolina,35341
+54,7,Shipping,141 Susan Court,Lake Jerryfurt,Illinois,25813
+55,29,Headquarters,288 Reese Trafficway,Emilychester,Connecticut,22365
+56,9,Headquarters,685 Amanda Rapid,Mahoneymouth,Oklahoma,43054
+57,6,Billing,6593 Nicholas Plaza Suite 577,Smithton,Maine,78588
+58,32,Billing,240 Joyce Forest,Andrewview,Oklahoma,67514
+59,3,Headquarters,07522 Richardson Prairie,East Jonathan,Maryland,12547
+60,20,Billing,315 Thompson Views Apt. 940,Millerton,Wyoming,44330
+61,17,Shipping,6139 Cynthia Roads Suite 048,West Amberberg,Massachusetts,66351
+62,86,Billing,06799 Jeffrey Highway,Hernandezmouth,Colorado,62872
+63,73,Billing,641 Shaw Trail,Port Dennis,Oklahoma,26467
+64,60,Headquarters,9389 John Grove Suite 591,Lake Robertstad,Minnesota,25468
+65,33,Shipping,9042 Jensen Unions Suite 927,Port Jesusstad,Georgia,99818
+66,22,Headquarters,03924 Matthew Unions,West Shannontown,Michigan,27896
+67,78,Headquarters,88487 Heather Skyway,South Brandyhaven,Arizona,33984
+68,92,Billing,43940 Pena Branch,South Donnastad,Connecticut,03001
+69,100,Billing,636 Rebecca Oval Apt. 238,Castrotown,Arizona,32927
+70,40,Billing,7620 Sutton Knoll Suite 384,Lake Jonathanfurt,Alaska,73238
+71,75,Billing,25621 Meyer Springs Apt. 639,South Tara,Rhode Island,43661
+72,40,Headquarters,232 Michelle Inlet Apt. 629,West Carlos,Ohio,94799
+73,87,Shipping,52056 Turner Summit,Edwinborough,Connecticut,17742
+74,51,Headquarters,99499 Caitlyn Fort,West Christopherfort,Florida,66341
+75,26,Billing,526 Wells Estates Apt. 306,West Stephaniebury,West Virginia,88494
+76,76,Headquarters,12797 Delacruz Gateway,Sullivanton,Rhode Island,96882
+77,81,Billing,569 Abigail Mission Suite 038,Terrellton,Oklahoma,51278
+78,14,Headquarters,47644 Jackson Hill,Lake Zacharyberg,New Jersey,85186
+79,99,Shipping,81298 Phillip Islands Suite 027,South Christopher,Massachusetts,91165
+80,88,Headquarters,111 Walters Corner,Acostahaven,South Carolina,21459

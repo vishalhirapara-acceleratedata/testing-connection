@@ -1,0 +1,101 @@
+customer_id,company_name,industry,country,created_date,is_active
+1,Clark PLC,Manufacturing,Turkey,2025-09-24,True
+2,Rios Group,Software,Turks and Caicos Islands,2026-04-27,True
+3,Thomas-Taylor,Healthcare,Samoa,2025-04-05,True
+4,Burgess-Patterson,Retail,Myanmar,2024-10-10,True
+5,Osborn and Sons,Retail,Malawi,2025-01-21,True
+6,Callahan and Sons,Education,Niue,2024-01-22,False
+7,"Henderson, Brown and James",Healthcare,Lao People's Democratic Republic,2025-03-01,False
+8,"Valencia, Smith and Le",Retail,Pitcairn Islands,2026-03-25,True
+9,Mack-Peterson,Government,French Polynesia,2024-11-18,True
+10,Smith-Bowen,Government,Saint Helena,2024-05-14,True
+11,"Gill, Romero and Rodriguez",Education,Niue,2024-06-21,False
+12,"Romero, Gonzalez and Brooks",Finance,Central African Republic,2025-03-12,True
+13,"Sellers, George and Burns",Healthcare,Bouvet Island (Bouvetoya),2026-05-13,True
+14,Allen-Allen,Government,Montenegro,2026-06-01,True
+15,Dennis Inc,Software,Senegal,2025-03-05,True
+16,Anderson Group,Manufacturing,Yemen,2025-03-24,True
+17,Rose-Obrien,Finance,Croatia,2026-05-13,True
+18,"Vaughn, Marquez and Ross",Retail,Paraguay,2025-07-11,True
+19,Lam-Hayes,Government,Egypt,2024-04-02,True
+20,Smith-Spencer,Education,Namibia,2024-03-28,False
+21,Zimmerman Inc,Retail,Denmark,2023-10-12,True
+22,Heath Inc,Manufacturing,Malaysia,2024-04-16,True
+23,"Washington, Ryan and Cummings",Retail,Turkmenistan,2025-04-16,True
+24,Sanchez-Kennedy,Government,Ireland,2024-02-24,True
+25,Hopkins LLC,Retail,Jamaica,2024-10-23,True
+26,"Brown, Valdez and Lucas",Education,Bahamas,2024-10-13,True
+27,Mcbride-Rodriguez,Software,Congo,2024-02-24,True
+28,Taylor-White,Government,Kyrgyz Republic,2024-04-29,True
+29,Ramos PLC,Software,Bolivia,2023-09-24,True
+30,"Huff, Novak and House",Government,Thailand,2024-04-14,True
+31,Tucker-Lewis,Manufacturing,Iran,2026-04-14,True
+32,Gray Group,Manufacturing,Estonia,2026-05-10,True
+33,Mitchell-Horton,Healthcare,Saint Martin,2026-07-24,True
+34,"Stanley, Tucker and Lee",Finance,Cuba,2026-06-25,True
+35,"Fitzgerald, Brown and Edwards",Education,Australia,2025-04-30,True
+36,"Calhoun, Schmidt and Brown",Education,Malawi,2023-10-26,True
+37,Jones Inc,Retail,Peru,2026-02-28,True
+38,Wilson-Zamora,Retail,Egypt,2025-04-24,True
+39,Harvey Group,Healthcare,Palestinian Territory,2025-04-30,False
+40,"Stewart, Green and Santiago",Manufacturing,Germany,2024-04-17,True
+41,Anderson-Brewer,Education,Kuwait,2024-07-11,True
+42,Smith PLC,Education,Mongolia,2026-07-25,True
+43,Medina PLC,Government,Estonia,2023-12-23,True
+44,Ibarra-Suarez,Healthcare,Heard Island and McDonald Islands,2024-06-07,True
+45,Bass-Warner,Government,New Zealand,2026-07-12,True
+46,"Rice, Contreras and Spencer",Manufacturing,Venezuela,2025-07-26,True
+47,Baker Inc,Software,Samoa,2025-03-27,True
+48,Campbell-Clark,Retail,Guam,2024-03-09,True
+49,"Farrell, Wagner and King",Healthcare,United States of America,2026-02-11,False
+50,Walters LLC,Manufacturing,Aruba,2023-08-03,False
+51,Walsh LLC,Healthcare,Central African Republic,2025-10-19,True
+52,"Thornton, Hoffman and Rodriguez",Healthcare,Western Sahara,2026-03-24,True
+53,Gardner LLC,Education,Myanmar,2025-03-27,True
+54,Anderson-Parker,Education,United Arab Emirates,2026-05-17,False
+55,Nolan and Sons,Retail,Pitcairn Islands,2024-04-29,False
+56,Gomez PLC,Finance,Turks and Caicos Islands,2026-03-14,True
+57,"Brady, Frost and Young",Healthcare,Central African Republic,2026-07-03,False
+58,Keith Inc,Software,Christmas Island,2025-10-14,True
+59,Patton-Jenkins,Government,Paraguay,2026-03-03,True
+60,Adams Ltd,Healthcare,Botswana,2024-09-21,True
+61,Garrison and Sons,Government,Cook Islands,2026-01-10,False
+62,Bailey-Hoover,Retail,Tunisia,2024-04-05,True
+63,Keller Group,Manufacturing,Greenland,2024-05-31,False
+64,Rasmussen LLC,Retail,Guernsey,2025-07-02,False
+65,Frazier-Anthony,Retail,Greenland,2026-05-24,True
+66,Wiley LLC,Retail,Christmas Island,2025-04-26,True
+67,Johnson-Carlson,Education,Guatemala,2025-10-05,True
+68,Graham-Joyce,Education,Brazil,2024-09-24,True
+69,"Lee, Williams and Graham",Government,Mali,2026-05-09,True
+70,"Mcdaniel, Bentley and Mclaughlin",Software,Congo,2024-09-01,True
+71,Rush LLC,Manufacturing,Nigeria,2024-07-08,True
+72,Cortez LLC,Manufacturing,Madagascar,2024-07-03,True
+73,Nguyen-Terry,Education,Micronesia,2023-12-17,True
+74,Ortega-Gray,Retail,San Marino,2026-04-14,True
+75,"Carroll, Sullivan and Bass",Retail,Gabon,2024-06-09,True
+76,Floyd-Lawson,Government,Gibraltar,2024-12-21,True
+77,Lowe-Dixon,Government,South Africa,2026-04-12,True
+78,"Jackson, Miller and Robertson",Healthcare,North Macedonia,2025-06-08,True
+79,Cardenas and Sons,Government,Peru,2024-07-04,True
+80,Hernandez Inc,Retail,Ecuador,2026-07-12,True
+81,"Atkinson, Jones and Perry",Retail,Norfolk Island,2025-04-21,True
+82,"Horton, Snyder and Sanchez",Manufacturing,Palau,2025-08-21,True
+83,Osborne and Sons,Software,Christmas Island,2025-12-27,True
+84,"Holmes, Williams and Wright",Government,Thailand,2023-12-10,True
+85,Solis Ltd,Healthcare,Marshall Islands,2026-07-16,True
+86,"Stewart, Fischer and Ramos",Healthcare,Suriname,2025-09-25,True
+87,"Simmons, Meadows and Griffin",Software,Cayman Islands,2025-10-22,False
+88,Cole-Walton,Government,Tajikistan,2025-06-28,True
+89,"Washington, Allen and Gonzales",Government,Rwanda,2024-06-07,True
+90,Rogers-Orozco,Healthcare,Belgium,2023-12-29,False
+91,Reyes and Sons,Retail,Romania,2024-03-21,True
+92,Russell-Daniels,Finance,Israel,2023-10-07,False
+93,Price-Carrillo,Healthcare,Yemen,2025-08-30,True
+94,"James, Smith and Bell",Education,Sao Tome and Principe,2024-09-30,True
+95,Medina-Navarro,Manufacturing,South Georgia and the South Sandwich Islands,2025-05-21,True
+96,Freeman LLC,Manufacturing,Jordan,2025-01-12,False
+97,Rogers-Shelton,Software,Iraq,2025-09-30,True
+98,Calhoun-Hooper,Healthcare,Martinique,2023-08-29,True
+99,Vargas-Alvarado,Finance,Belize,2025-07-03,True
+100,Camacho and Sons,Retail,Australia,2024-05-10,True

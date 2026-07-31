@@ -1,0 +1,4 @@
+channel_id,channel_name,channel_type,commission_rate
+1,Direct Sales,direct,0.05
+2,Partner Network,indirect,0.15
+3,Online Store,ecommerce,0.03
