@@ -34,6 +34,7 @@ All success criteria from intent.md and design.md Model Inventory rows are cover
 | Dev-artifact scan | grep -r "dev_mode=True\|add_limit()" transformation/sales_datamart/models/ | 0 | pass (no dev artifacts found) |
 | dbt models build | dbt run --profiles-dir /home/openhands/.dbt | 0 | pass (4/4 models built successfully) |
 | Ship: Branch push | git push -u origin HEAD | 0 | pass (branch intent/new-intent-4bde461c pushed to origin 8eab344) |
+| Ship: Create PR | gh pr create | 0 | pass (PR #2 created: https://github.com/vishalhirapara-acceleratedata/testing-connection/pull/2) |
 
 ## Reviewer verdicts
 
