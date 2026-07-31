@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: Bronze layer - raw sales data from dlt ingestion
+    schema: bronze
+    tables:
+      - name: customers
+        description: Customer accounts
+      - name: contacts
+        description: Customer contacts
+      - name: products
+        description: Product catalog
+      - name: product_categories
+        description: Product categories
+      - name: orders
+        description: Sales orders
+      - name: order_lines
+        description: Order line items
+      - name: sales_reps
+        description: Sales representatives
+      - name: territories
+        description: Sales territories
+      - name: invoices
+        description: Invoices
+      - name: invoice_lines
+        description: Invoice line items

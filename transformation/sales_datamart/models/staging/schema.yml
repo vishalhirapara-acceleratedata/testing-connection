@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Cleaned customer data from bronze
+    columns:
+      - name: customer_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: company_name
+        data_tests:
+          - not_null
+  
+  - name: stg_products
+    description: Cleaned product data from bronze
+    columns:
+      - name: product_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_orders
+    description: Cleaned order data from bronze
+    columns:
+      - name: order_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: Foreign key to customers
+        data_tests:
+          - not_null
