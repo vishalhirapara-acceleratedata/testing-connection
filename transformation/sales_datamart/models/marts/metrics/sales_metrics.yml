@@ -1,0 +1,45 @@
+metrics:
+  - name: total_revenue
+    description: Total revenue from all invoiced transactions
+    type: simple
+    type_params:
+      measure: customer_count
+    label: Total Revenue
+
+  - name: order_volume
+    description: Total count of unique orders
+    type: simple
+    type_params:
+      measure: customer_count
+    label: Order Volume
+
+  - name: average_deal_size
+    description: Average revenue per order
+    type: derived
+    type_params:
+      expr: total_revenue / order_volume
+      metrics:
+        - total_revenue
+        - order_volume
+    label: Average Deal Size
+
+  - name: customer_lifetime_value
+    description: Total revenue per customer across all time
+    type: simple
+    type_params:
+      measure: customer_count
+    label: Customer Lifetime Value
+
+  - name: product_mix_revenue
+    description: Revenue breakdown by product
+    type: simple
+    type_params:
+      measure: customer_count
+    label: Product Mix Revenue
+
+  - name: sales_by_territory
+    description: Sales performance by sales territory
+    type: simple
+    type_params:
+      measure: customer_count
+    label: Sales by Territory
