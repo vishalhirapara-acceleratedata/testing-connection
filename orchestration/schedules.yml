@@ -1,0 +1,16 @@
+schedules:
+  - name: bronze_ingestion
+    cron: "0 5 * * *"
+    timezone: UTC
+    selector: sales_pipeline
+    engine: dlt
+    depends_on: []
+    retries: 1
+
+  - name: sales_mart_daily_refresh
+    cron: "0 6 * * *"
+    timezone: UTC
+    selector: "path:models/marts"
+    engine: dbt
+    depends_on: [bronze_ingestion]
+    retries: 2

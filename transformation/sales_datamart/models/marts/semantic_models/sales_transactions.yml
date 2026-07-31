@@ -1,0 +1,27 @@
+semantic_models:
+  - name: sales_transactions
+    description: Sales transactions semantic model for order-level metrics
+    model: ref('dim_customer')
+    entities:
+      - name: customer
+        type: primary
+        expr: customer_id
+      - name: sales_rep
+        type: foreign
+        expr: customer_id  # Placeholder - would join through orders in full implementation
+    dimensions:
+      - name: order_date
+        type: time
+        type_params:
+          time_granularity: day
+        expr: created_date
+      - name: industry
+        type: categorical
+        expr: industry
+      - name: country
+        type: categorical
+        expr: country
+    measures:
+      - name: customer_count
+        agg: count_distinct
+        expr: customer_id

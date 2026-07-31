@@ -1,0 +1,121 @@
+segment_id,customer_id,segment_type,segment_value,effective_date
+1,73,Company Size,SMB,2025-05-02
+2,69,Industry Vertical,Manufacturing,2025-05-04
+3,9,Industry Vertical,Retail,2026-02-11
+4,2,Industry Vertical,Government,2026-05-27
+5,63,Geographic,North,2025-09-16
+6,47,Geographic,West,2025-11-24
+7,56,Revenue Band,1-10M,2024-11-16
+8,79,Industry Vertical,Government,2026-04-26
+9,60,Geographic,West,2024-12-07
+10,42,Industry Vertical,Government,2026-01-01
+11,12,Revenue Band,10-50M,2025-06-01
+12,32,Geographic,West,2025-03-13
+13,44,Geographic,North,2026-02-11
+14,42,Geographic,South,2025-06-21
+15,28,Geographic,East,2025-10-30
+16,44,Industry Vertical,Finance,2024-10-23
+17,72,Industry Vertical,Software,2024-11-03
+18,11,Revenue Band,1-10M,2024-12-25
+19,63,Geographic,International,2025-10-28
+20,89,Revenue Band,50M+,2025-01-31
+21,58,Geographic,North,2025-06-30
+22,38,Company Size,SMB,2026-04-16
+23,89,Geographic,South,2025-08-31
+24,85,Industry Vertical,Retail,2024-08-03
+25,61,Industry Vertical,Retail,2026-05-06
+26,55,Industry Vertical,Education,2025-01-19
+27,46,Industry Vertical,Education,2025-10-03
+28,35,Geographic,East,2025-07-12
+29,30,Industry Vertical,Software,2025-05-25
+30,41,Revenue Band,0-1M,2024-09-26
+31,25,Revenue Band,1-10M,2025-10-11
+32,36,Geographic,International,2025-01-24
+33,13,Industry Vertical,Government,2025-09-03
+34,38,Revenue Band,1-10M,2025-10-26
+35,23,Industry Vertical,Finance,2025-09-10
+36,91,Company Size,Enterprise,2026-03-25
+37,36,Revenue Band,0-1M,2024-09-03
+38,71,Company Size,Mid-Market,2024-11-15
+39,82,Revenue Band,50M+,2025-11-19
+40,2,Company Size,Enterprise,2024-08-25
+41,61,Industry Vertical,Manufacturing,2026-04-15
+42,44,Geographic,South,2025-11-29
+43,33,Company Size,Mid-Market,2026-04-03
+44,9,Company Size,Mid-Market,2025-03-05
+45,10,Geographic,International,2026-06-02
+46,20,Company Size,SMB,2024-09-03
+47,11,Industry Vertical,Healthcare,2025-05-30
+48,72,Company Size,Mid-Market,2024-12-07
+49,100,Revenue Band,50M+,2025-12-03
+50,57,Geographic,East,2025-10-19
+51,40,Geographic,International,2025-12-17
+52,79,Company Size,Enterprise,2025-10-07
+53,98,Company Size,SMB,2026-02-25
+54,34,Revenue Band,0-1M,2024-12-06
+55,31,Revenue Band,1-10M,2025-06-27
+56,21,Company Size,SMB,2025-09-26
+57,58,Geographic,International,2026-06-10
+58,38,Geographic,North,2024-10-06
+59,37,Revenue Band,10-50M,2025-03-05
+60,10,Geographic,South,2025-04-25
+61,81,Industry Vertical,Retail,2025-05-03
+62,55,Revenue Band,0-1M,2024-09-17
+63,83,Revenue Band,1-10M,2025-06-07
+64,19,Industry Vertical,Software,2025-09-05
+65,22,Company Size,Mid-Market,2025-03-01
+66,57,Industry Vertical,Software,2024-11-05
+67,89,Geographic,East,2025-12-19
+68,35,Geographic,International,2025-02-15
+69,57,Geographic,North,2025-08-19
+70,56,Company Size,Enterprise,2025-08-17
+71,78,Industry Vertical,Finance,2025-12-20
+72,12,Company Size,SMB,2025-10-20
+73,98,Company Size,Enterprise,2024-10-17
+74,74,Industry Vertical,Software,2026-01-14
+75,61,Revenue Band,50M+,2025-11-01
+76,24,Industry Vertical,Retail,2026-07-21
+77,82,Geographic,West,2025-07-18
+78,61,Company Size,Mid-Market,2025-12-15
+79,43,Geographic,East,2026-06-12
+80,21,Company Size,Mid-Market,2026-07-20
+81,89,Geographic,West,2025-02-24
+82,85,Industry Vertical,Manufacturing,2025-10-18
+83,59,Company Size,SMB,2025-03-18
+84,33,Industry Vertical,Finance,2025-08-18
+85,99,Company Size,Mid-Market,2026-07-27
+86,85,Company Size,Enterprise,2025-04-14
+87,53,Geographic,North,2024-11-01
+88,67,Revenue Band,10-50M,2025-09-14
+89,81,Geographic,West,2025-08-13
+90,27,Company Size,Mid-Market,2025-11-03
+91,37,Revenue Band,50M+,2025-07-25
+92,16,Geographic,North,2024-12-08
+93,91,Revenue Band,1-10M,2025-10-18
+94,71,Industry Vertical,Software,2025-12-29
+95,12,Geographic,South,2026-07-15
+96,60,Company Size,SMB,2024-07-31
+97,64,Revenue Band,10-50M,2024-08-16
+98,54,Industry Vertical,Government,2025-10-30
+99,61,Geographic,South,2024-10-24
+100,71,Geographic,South,2026-04-10
+101,25,Geographic,International,2026-03-06
+102,9,Revenue Band,10-50M,2026-07-30
+103,44,Geographic,International,2025-05-28
+104,1,Industry Vertical,Finance,2025-03-31
+105,76,Industry Vertical,Retail,2025-09-12
+106,20,Geographic,West,2025-11-08
+107,45,Geographic,East,2024-08-07
+108,59,Geographic,East,2024-12-24
+109,90,Revenue Band,1-10M,2025-02-20
+110,30,Geographic,West,2026-02-27
+111,41,Company Size,Enterprise,2025-03-11
+112,91,Geographic,West,2025-08-04
+113,85,Geographic,South,2025-03-23
+114,5,Geographic,South,2024-08-03
+115,13,Industry Vertical,Government,2025-12-13
+116,13,Geographic,International,2025-04-05
+117,2,Geographic,South,2026-01-10
+118,84,Geographic,South,2025-10-23
+119,61,Company Size,Mid-Market,2024-08-20
+120,80,Industry Vertical,Education,2024-12-05
