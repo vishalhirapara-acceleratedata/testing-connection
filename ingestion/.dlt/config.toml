@@ -1,0 +1,8 @@
+# dlt configuration for sales pipeline
+
+[runtime]
+log_level = "INFO"
+
+[destination.duckdb]
+# DuckDB destination will use VD_EPHM_DUCKDB_PATH from environment
+# The pipeline script reads it directly
