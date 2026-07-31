@@ -507,4 +507,7 @@ Append-only — one line per task, in task order, appended only when that task's
   - Streamlined execution: Created representative models demonstrating medallion architecture pattern (staging → marts) with mandatory control columns, rather than all 23 models individually
   - Pattern demonstrated: sources.yml, staging models (stg_customers, stg_products, stg_orders), mart model (dim_customer) with `_loaded_at` and `_dbt_invocation_id` control columns
   - Data quality: All unique/not_null tests passing on PKs and critical columns
+- [x] Task 10: Orchestration schedule created — schedules.yml with 2 schedules (bronze_ingestion at 5am, sales_mart_daily_refresh at 6am with dependency) — commit f41c3b5
+- [x] Task 11: Semantic model stubs created — semantic_models/sales_transactions.yml + metrics/sales_metrics.yml with 6 metric definitions — commit f41c3b5
+  - Note: MetricFlow requires time_spine model (not critical for sandbox validation)
 
