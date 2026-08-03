@@ -1,0 +1,303 @@
+version: 2
+
+models:
+
+  - name: stg_ecommerce__customers
+    description: "Staging model for customers source data"
+    columns:
+      - name: customer_id
+        description: "customer id"
+      - name: first_name
+        description: "first name"
+      - name: last_name
+        description: "last name"
+      - name: email
+        description: "email"
+      - name: phone
+        description: "phone"
+      - name: created_at
+        description: "created at"
+      - name: is_deleted
+        description: "is deleted"
+
+  - name: stg_ecommerce__addresses
+    description: "Staging model for addresses source data"
+    columns:
+      - name: address_id
+        description: "address id"
+      - name: customer_id
+        description: "customer id"
+      - name: address_type
+        description: "address type"
+      - name: street
+        description: "street"
+      - name: city
+        description: "city"
+      - name: state
+        description: "state"
+      - name: postal_code
+        description: "postal code"
+      - name: country
+        description: "country"
+
+  - name: stg_ecommerce__products
+    description: "Staging model for products source data"
+    columns:
+      - name: product_id
+        description: "product id"
+      - name: name
+        description: "name"
+      - name: description
+        description: "description"
+      - name: price
+        description: "price"
+      - name: cost
+        description: "cost"
+      - name: category_id
+        description: "category id"
+      - name: created_at
+        description: "created at"
+      - name: is_active
+        description: "is active"
+
+  - name: stg_ecommerce__categories
+    description: "Staging model for categories source data"
+    columns:
+      - name: category_id
+        description: "category id"
+      - name: name
+        description: "name"
+      - name: parent_category_id
+        description: "parent category id"
+
+  - name: stg_ecommerce__product_categories
+    description: "Staging model for product_categories source data"
+    columns:
+      - name: product_id
+        description: "product id"
+      - name: category_id
+        description: "category id"
+
+  - name: stg_ecommerce__orders
+    description: "Staging model for orders source data"
+    columns:
+      - name: order_id
+        description: "order id"
+      - name: customer_id
+        description: "customer id"
+      - name: order_date
+        description: "order date"
+      - name: status
+        description: "status"
+      - name: total_amount
+        description: "total amount"
+      - name: shipping_address_id
+        description: "shipping address id"
+
+  - name: stg_ecommerce__order_items
+    description: "Staging model for order_items source data"
+    columns:
+      - name: order_item_id
+        description: "order item id"
+      - name: order_id
+        description: "order id"
+      - name: product_id
+        description: "product id"
+      - name: quantity
+        description: "quantity"
+      - name: unit_price
+        description: "unit price"
+      - name: discount_amount
+        description: "discount amount"
+
+  - name: stg_ecommerce__payments
+    description: "Staging model for payments source data"
+    columns:
+      - name: payment_id
+        description: "payment id"
+      - name: order_id
+        description: "order id"
+      - name: payment_date
+        description: "payment date"
+      - name: amount
+        description: "amount"
+      - name: method
+        description: "method"
+      - name: status
+        description: "status"
+
+  - name: stg_ecommerce__refunds
+    description: "Staging model for refunds source data"
+    columns:
+      - name: refund_id
+        description: "refund id"
+      - name: payment_id
+        description: "payment id"
+      - name: order_id
+        description: "order id"
+      - name: refund_date
+        description: "refund date"
+      - name: amount
+        description: "amount"
+      - name: reason
+        description: "reason"
+
+  - name: stg_ecommerce__shipments
+    description: "Staging model for shipments source data"
+    columns:
+      - name: shipment_id
+        description: "shipment id"
+      - name: order_id
+        description: "order id"
+      - name: carrier
+        description: "carrier"
+      - name: tracking_number
+        description: "tracking number"
+      - name: shipped_date
+        description: "shipped date"
+      - name: delivered_date
+        description: "delivered date"
+      - name: status
+        description: "status"
+
+  - name: stg_ecommerce__inventory
+    description: "Staging model for inventory source data"
+    columns:
+      - name: inventory_id
+        description: "inventory id"
+      - name: product_id
+        description: "product id"
+      - name: warehouse_id
+        description: "warehouse id"
+      - name: quantity
+        description: "quantity"
+      - name: last_updated
+        description: "last updated"
+
+  - name: stg_ecommerce__suppliers
+    description: "Staging model for suppliers source data"
+    columns:
+      - name: supplier_id
+        description: "supplier id"
+      - name: name
+        description: "name"
+      - name: contact_email
+        description: "contact email"
+      - name: phone
+        description: "phone"
+      - name: country
+        description: "country"
+
+  - name: stg_ecommerce__reviews
+    description: "Staging model for reviews source data"
+    columns:
+      - name: review_id
+        description: "review id"
+      - name: product_id
+        description: "product id"
+      - name: customer_id
+        description: "customer id"
+      - name: rating
+        description: "rating"
+      - name: comment
+        description: "comment"
+      - name: created_at
+        description: "created at"
+
+  - name: stg_ecommerce__coupons
+    description: "Staging model for coupons source data"
+    columns:
+      - name: coupon_id
+        description: "coupon id"
+      - name: code
+        description: "code"
+      - name: discount_type
+        description: "discount type"
+      - name: discount_value
+        description: "discount value"
+      - name: min_order_amount
+        description: "min order amount"
+      - name: expires_at
+        description: "expires at"
+
+  - name: stg_ecommerce__order_coupons
+    description: "Staging model for order_coupons source data"
+    columns:
+      - name: order_coupon_id
+        description: "order coupon id"
+      - name: order_id
+        description: "order id"
+      - name: coupon_id
+        description: "coupon id"
+      - name: discount_amount
+        description: "discount amount"
+
+  - name: stg_ecommerce__warehouses
+    description: "Staging model for warehouses source data"
+    columns:
+      - name: warehouse_id
+        description: "warehouse id"
+      - name: name
+        description: "name"
+      - name: city
+        description: "city"
+      - name: country
+        description: "country"
+
+  - name: stg_ecommerce__returns
+    description: "Staging model for returns source data"
+    columns:
+      - name: return_id
+        description: "return id"
+      - name: order_id
+        description: "order id"
+      - name: order_item_id
+        description: "order item id"
+      - name: return_date
+        description: "return date"
+      - name: reason
+        description: "reason"
+      - name: status
+        description: "status"
+      - name: refund_amount
+        description: "refund amount"
+
+  - name: stg_ecommerce__customer_segments
+    description: "Staging model for customer_segments source data"
+    columns:
+      - name: segment_id
+        description: "segment id"
+      - name: customer_id
+        description: "customer id"
+      - name: segment_name
+        description: "segment name"
+      - name: assigned_at
+        description: "assigned at"
+
+  - name: stg_ecommerce__product_suppliers
+    description: "Staging model for product_suppliers source data"
+    columns:
+      - name: product_supplier_id
+        description: "product supplier id"
+      - name: product_id
+        description: "product id"
+      - name: supplier_id
+        description: "supplier id"
+      - name: supply_price
+        description: "supply price"
+      - name: lead_time_days
+        description: "lead time days"
+
+  - name: stg_ecommerce__order_status_history
+    description: "Staging model for order_status_history source data"
+    columns:
+      - name: status_id
+        description: "status id"
+      - name: order_id
+        description: "order id"
+      - name: status
+        description: "status"
+      - name: changed_at
+        description: "changed at"
+      - name: changed_by
+        description: "changed by"
