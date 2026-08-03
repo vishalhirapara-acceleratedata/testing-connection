@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: int_order_items_enriched
+    description: "Order line items enriched with product details and order context"
+    columns:
+      - name: order_item_id
+        description: "Unique identifier for each order line item"
+      - name: order_id
+        description: "Foreign key to the orders table"
+      - name: product_id
+        description: "Foreign key to the products table"
+      - name: quantity
+        description: "Number of units ordered"
+      - name: unit_price
+        description: "Price per unit at time of order"
+      - name: discount_amount
+        description: "Discount applied to this line item"
+      - name: line_total
+        description: "Net total for this line item (qty * price - discount)"
+      - name: product_name
+        description: "Name of the product"
+      - name: category_id
+        description: "Category of the product"
+      - name: product_cost
+        description: "Cost of the product"
+      - name: customer_id
+        description: "Customer who placed the order"
+      - name: order_date
+        description: "Date the order was placed"
+      - name: order_status
+        description: "Current status of the order"
+
+  - name: int_customer_orders
+    description: "Customer-level order aggregates for dimension enrichment"
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier"
+      - name: total_orders
+        description: "Total number of orders placed"
+      - name: total_spent
+        description: "Total amount spent across all orders"
+      - name: first_order_date
+        description: "Date of the first order"
+      - name: last_order_date
+        description: "Date of the most recent order"
+      - name: avg_order_value
+        description: "Average order value"
+      - name: total_paid
+        description: "Total amount paid (completed payments only)"

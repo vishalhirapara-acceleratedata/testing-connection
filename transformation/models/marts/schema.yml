@@ -1,0 +1,129 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: "Customer dimension - one row per customer with order aggregates and address"
+    columns:
+      - name: customer_key
+        description: "Surrogate key for the customer"
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Natural key from source system"
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: "Customer email address"
+      - name: total_orders
+        description: "Total number of orders"
+      - name: total_spent
+        description: "Total amount spent"
+
+  - name: dim_product
+    description: "Product dimension - one row per product with category and supplier"
+    columns:
+      - name: product_key
+        description: "Surrogate key for the product"
+        tests:
+          - unique
+          - not_null
+      - name: product_id
+        description: "Natural key from source system"
+        tests:
+          - unique
+          - not_null
+      - name: product_name
+        description: "Product name"
+      - name: price
+        description: "Current selling price"
+      - name: category_name
+        description: "Product category name"
+
+  - name: fct_orders
+    description: "Order fact table - one row per order with payment, shipping, and coupon details"
+    columns:
+      - name: order_key
+        description: "Surrogate key for the order"
+        tests:
+          - unique
+          - not_null
+      - name: order_id
+        description: "Natural key from source system"
+        tests:
+          - unique
+          - not_null
+      - name: customer_key
+        description: "Foreign key to dim_customer"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_key
+      - name: order_date
+        description: "Date the order was placed"
+      - name: total_amount
+        description: "Total order amount"
+      - name: status
+        description: "Order status"
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['completed', 'processing', 'shipped', 'cancelled', 'returned']
+
+  - name: fct_order_items
+    description: "Order item fact table - one row per line item with refund and return flags"
+    columns:
+      - name: order_item_key
+        description: "Surrogate key for the order item"
+        tests:
+          - unique
+          - not_null
+      - name: order_item_id
+        description: "Natural key from source system"
+        tests:
+          - unique
+          - not_null
+      - name: order_key
+        description: "Foreign key to fct_orders"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('fct_orders')
+                field: order_key
+      - name: product_key
+        description: "Foreign key to dim_product"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product')
+                field: product_key
+      - name: line_total
+        description: "Net total for this line item"
+
+  - name: fct_inventory_daily
+    description: "Inventory fact table - one row per product per warehouse per day"
+    columns:
+      - name: inventory_key
+        description: "Surrogate key for the inventory record"
+        tests:
+          - unique
+          - not_null
+      - name: product_key
+        description: "Foreign key to dim_product"
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product')
+                field: product_key
+      - name: warehouse_id
+        description: "Warehouse identifier"
+        tests:
+          - not_null
+      - name: quantity
+        description: "Stock quantity"
