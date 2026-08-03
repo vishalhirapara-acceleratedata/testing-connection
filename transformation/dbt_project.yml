@@ -1,4 +1,4 @@
-name: 'ecommerce'
+name: 'data_engineering'
 version: '1.0.0'
 config-version: 2
 profile: 'ecommerce'
@@ -10,11 +10,11 @@ target-path: "target"
 clean-targets: ["target", "dbt_packages"]
 
 seeds:
-  ecommerce:
+  data_engineering:
     +schema: raw
 
 models:
-  ecommerce:
+  data_engineering:
     staging:
       +materialized: view
     intermediate:
