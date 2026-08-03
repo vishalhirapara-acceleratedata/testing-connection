@@ -283,3 +283,9 @@ git commit -m "chore: verify full dbt build passes for e-commerce project"
 ## Execution evidence
 
 Append-only — one line per task, in task order.
+
+- [x] Task 1: `dbt seed --profiles-dir .` — exit 0 — 20 seeds loaded (PASS=20 WARN=0 ERROR=0) — transformation/seeds/ecommerce/
+- [x] Task 2: `dbt build -s staging --profiles-dir .` — exit 0 — 20 staging views created (PASS=20 WARN=0 ERROR=0) — transformation/models/staging/
+- [x] Task 3: `dbt build -s intermediate --profiles-dir .` — exit 0 — 2 intermediate views created (PASS=2 WARN=0 ERROR=0) — transformation/models/intermediate/
+- [x] Task 4: `dbt build -s marts --profiles-dir .` — exit 0 — 5 mart tables + 28 tests pass (PASS=33 WARN=0 ERROR=0) — transformation/models/marts/
+- [x] Task 5: `dbt build --profiles-dir .` — exit 0 — 75 total (20 seeds + 27 models + 28 tests, PASS=75 WARN=0 ERROR=0) — full project verified
