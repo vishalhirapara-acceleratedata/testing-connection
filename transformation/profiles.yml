@@ -1,0 +1,7 @@
+ecommerce:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('VD_EPHM_DUCKDB_PATH') }}"
+      threads: 4

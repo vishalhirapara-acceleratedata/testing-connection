@@ -1,0 +1,81 @@
+address_id,customer_id,address_type,street,city,state,postal_code,country
+1,48,billing,741 Spruce Ter,Austin,TX,73301,US
+2,26,billing,321 Elm Blvd,Houston,TX,77001,US
+3,9,billing,456 Oak Ave,Los Angeles,CA,90001,US
+4,49,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+5,10,shipping,147 Birch Way,San Antonio,TX,78201,US
+6,39,shipping,147 Birch Way,San Antonio,TX,78201,US
+7,25,billing,369 Cherry Pl,Dallas,TX,75201,US
+8,17,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+9,44,billing,987 Cedar Ln,Philadelphia,PA,19101,US
+10,8,billing,147 Birch Way,San Antonio,TX,78201,US
+11,11,billing,123 Main St,New York,NY,10001,US
+12,47,billing,369 Cherry Pl,Dallas,TX,75201,US
+13,49,shipping,369 Cherry Pl,Dallas,TX,75201,US
+14,7,billing,369 Cherry Pl,Dallas,TX,75201,US
+15,39,shipping,789 Pine Rd,Chicago,IL,60601,US
+16,24,shipping,369 Cherry Pl,Dallas,TX,75201,US
+17,50,shipping,741 Spruce Ter,Austin,TX,73301,US
+18,21,billing,123 Main St,New York,NY,10001,US
+19,8,billing,654 Maple Dr,Phoenix,AZ,85001,US
+20,16,shipping,321 Elm Blvd,Houston,TX,77001,US
+21,37,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+22,47,billing,456 Oak Ave,Los Angeles,CA,90001,US
+23,49,shipping,789 Pine Rd,Chicago,IL,60601,US
+24,43,billing,369 Cherry Pl,Dallas,TX,75201,US
+25,11,billing,369 Cherry Pl,Dallas,TX,75201,US
+26,39,billing,321 Elm Blvd,Houston,TX,77001,US
+27,35,shipping,654 Maple Dr,Phoenix,AZ,85001,US
+28,26,billing,258 Walnut Ct,San Diego,CA,92101,US
+29,34,billing,456 Oak Ave,Los Angeles,CA,90001,US
+30,16,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+31,22,shipping,741 Spruce Ter,Austin,TX,73301,US
+32,36,shipping,741 Spruce Ter,Austin,TX,73301,US
+33,15,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+34,46,shipping,321 Elm Blvd,Houston,TX,77001,US
+35,5,shipping,987 Cedar Ln,Philadelphia,PA,19101,US
+36,5,shipping,654 Maple Dr,Phoenix,AZ,85001,US
+37,43,billing,321 Elm Blvd,Houston,TX,77001,US
+38,35,shipping,741 Spruce Ter,Austin,TX,73301,US
+39,37,billing,321 Elm Blvd,Houston,TX,77001,US
+40,31,billing,321 Elm Blvd,Houston,TX,77001,US
+41,7,shipping,147 Birch Way,San Antonio,TX,78201,US
+42,23,billing,147 Birch Way,San Antonio,TX,78201,US
+43,30,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+44,4,billing,987 Cedar Ln,Philadelphia,PA,19101,US
+45,7,shipping,321 Elm Blvd,Houston,TX,77001,US
+46,13,billing,789 Pine Rd,Chicago,IL,60601,US
+47,28,shipping,654 Maple Dr,Phoenix,AZ,85001,US
+48,30,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+49,29,shipping,123 Main St,New York,NY,10001,US
+50,42,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+51,49,shipping,789 Pine Rd,Chicago,IL,60601,US
+52,27,billing,258 Walnut Ct,San Diego,CA,92101,US
+53,14,billing,123 Main St,New York,NY,10001,US
+54,11,billing,123 Main St,New York,NY,10001,US
+55,25,billing,258 Walnut Ct,San Diego,CA,92101,US
+56,19,billing,369 Cherry Pl,Dallas,TX,75201,US
+57,43,billing,789 Pine Rd,Chicago,IL,60601,US
+58,13,billing,321 Elm Blvd,Houston,TX,77001,US
+59,4,shipping,987 Cedar Ln,Philadelphia,PA,19101,US
+60,4,shipping,741 Spruce Ter,Austin,TX,73301,US
+61,31,shipping,123 Main St,New York,NY,10001,US
+62,33,shipping,789 Pine Rd,Chicago,IL,60601,US
+63,5,shipping,321 Elm Blvd,Houston,TX,77001,US
+64,26,shipping,741 Spruce Ter,Austin,TX,73301,US
+65,16,shipping,741 Spruce Ter,Austin,TX,73301,US
+66,6,billing,741 Spruce Ter,Austin,TX,73301,US
+67,37,billing,654 Maple Dr,Phoenix,AZ,85001,US
+68,14,billing,321 Elm Blvd,Houston,TX,77001,US
+69,17,billing,789 Pine Rd,Chicago,IL,60601,US
+70,43,billing,258 Walnut Ct,San Diego,CA,92101,US
+71,21,shipping,123 Main St,New York,NY,10001,US
+72,30,shipping,456 Oak Ave,Los Angeles,CA,90001,US
+73,35,shipping,369 Cherry Pl,Dallas,TX,75201,US
+74,17,shipping,987 Cedar Ln,Philadelphia,PA,19101,US
+75,5,shipping,987 Cedar Ln,Philadelphia,PA,19101,US
+76,19,shipping,258 Walnut Ct,San Diego,CA,92101,US
+77,35,billing,741 Spruce Ter,Austin,TX,73301,US
+78,42,shipping,369 Cherry Pl,Dallas,TX,75201,US
+79,20,shipping,789 Pine Rd,Chicago,IL,60601,US
+80,17,shipping,456 Oak Ave,Los Angeles,CA,90001,US

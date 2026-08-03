@@ -1,0 +1,41 @@
+review_id,product_id,customer_id,rating,comment,created_at
+1,16,1,3,Highly recommend,2024-08-21
+2,26,9,3,Not bad,2024-09-21
+3,2,2,2,Highly recommend,2024-08-06
+4,25,8,5,Fast shipping,2024-07-19
+5,12,46,4,Highly recommend,2024-07-26
+6,11,20,3,Not bad,2024-08-10
+7,24,28,4,Fast shipping,2024-08-14
+8,23,36,5,Fast shipping,2024-08-27
+9,22,38,2,Love it!,2024-09-17
+10,24,45,3,Not bad,2024-08-15
+11,24,1,5,Love it!,2024-11-23
+12,2,12,5,Fast shipping,2024-08-26
+13,21,37,1,Would buy again,2024-08-06
+14,11,48,1,Could be better,2024-09-27
+15,11,11,1,Fast shipping,2024-10-23
+16,1,17,2,Could be better,2024-07-18
+17,12,17,1,Great product!,2024-07-13
+18,13,29,4,Not bad,2024-10-14
+19,16,25,3,As expected,2024-10-05
+20,4,31,5,Could be better,2024-08-11
+21,15,5,1,Excellent quality,2024-07-06
+22,11,17,1,Good value,2024-09-26
+23,6,25,2,Good value,2024-11-18
+24,29,6,3,Highly recommend,2024-11-01
+25,23,2,4,Not bad,2024-10-20
+26,6,4,1,Fast shipping,2024-08-22
+27,7,27,5,As expected,2024-09-06
+28,22,19,3,Could be better,2024-07-25
+29,2,26,5,As expected,2024-11-03
+30,5,4,3,Great product!,2024-10-18
+31,3,19,5,Would buy again,2024-08-21
+32,4,2,2,Not bad,2024-09-13
+33,3,31,1,Excellent quality,2024-10-10
+34,16,32,3,Good value,2024-11-17
+35,13,12,3,Love it!,2024-10-03
+36,6,29,1,Excellent quality,2024-10-21
+37,15,17,2,Excellent quality,2024-11-22
+38,2,10,1,Good value,2024-09-27
+39,26,35,4,Highly recommend,2024-08-28
+40,18,4,4,As expected,2024-10-16

@@ -1,0 +1,11 @@
+return_id,order_id,order_item_id,return_date,reason,status,refund_amount
+1,80,215,2024-10-03,changed_mind,pending,108.22
+2,7,18,2024-11-28,not_as_described,pending,17.73
+3,39,100,2024-10-18,changed_mind,approved,146.29
+4,30,78,2024-10-20,changed_mind,pending,51.37
+5,54,144,2024-10-13,changed_mind,approved,138.31
+6,53,143,2024-11-01,damaged,pending,125.84
+7,66,177,2024-10-05,not_as_described,rejected,69.46
+8,100,263,2024-10-12,wrong_size,approved,127.99
+9,32,80,2024-10-30,defective,pending,110.13
+10,36,91,2024-11-22,changed_mind,rejected,68.59

@@ -1,0 +1,31 @@
+product_id,name,description,price,cost,category_id,created_at,is_active
+1,Laptop Pro 15,High quality laptop pro 15,999.99,599.99,3,2024-03-10 00:00:00,true
+2,Smartphone X,High quality smartphone x,799.99,479.99,4,2024-07-02 00:00:00,true
+3,Wireless Earbuds,High quality wireless earbuds,49.99,29.99,5,2024-05-09 00:00:00,true
+4,4K Monitor,High quality 4k monitor,349.99,209.99,1,2024-01-24 00:00:00,true
+5,Mechanical Keyboard,High quality mechanical keyboard,89.99,53.99,5,2024-01-12 00:00:00,false
+6,Running Shoes,High quality running shoes,129.99,77.99,3,2024-06-12 00:00:00,true
+7,Winter Jacket,High quality winter jacket,199.99,119.99,3,2024-07-08 00:00:00,true
+8,Cotton T-Shirt,High quality cotton t-shirt,24.99,14.99,7,2024-05-23 00:00:00,false
+9,Yoga Mat,High quality yoga mat,35.99,21.59,2,2024-06-25 00:00:00,true
+10,Dumbbell Set,High quality dumbbell set,79.99,47.99,1,2024-04-04 00:00:00,true
+11,Coffee Maker,High quality coffee maker,59.99,35.99,3,2024-04-20 00:00:00,true
+12,Blender,High quality blender,39.99,23.99,5,2024-04-03 00:00:00,true
+13,Vacuum Cleaner,High quality vacuum cleaner,149.99,89.99,1,2024-04-01 00:00:00,true
+14,Desk Lamp,High quality desk lamp,29.99,17.99,4,2024-06-19 00:00:00,true
+15,Bookshelf,High quality bookshelf,89.99,53.99,7,2024-06-07 00:00:00,true
+16,Phone Case,High quality phone case,14.99,8.99,4,2024-02-11 00:00:00,true
+17,Screen Protector,High quality screen protector,9.99,5.99,3,2024-04-15 00:00:00,false
+18,USB-C Cable,High quality usb-c cable,12.99,7.79,6,2024-07-19 00:00:00,true
+19,Power Bank,High quality power bank,29.99,17.99,4,2024-03-09 00:00:00,true
+20,Smart Watch,High quality smart watch,249.99,149.99,2,2024-04-07 00:00:00,true
+21,Headphones,High quality headphones,79.99,47.99,8,2024-02-26 00:00:00,true
+22,Tablet Stand,High quality tablet stand,19.99,11.99,8,2024-03-30 00:00:00,true
+23,Mouse Pad,High quality mouse pad,9.99,5.99,4,2024-02-27 00:00:00,false
+24,Webcam,High quality webcam,69.99,41.99,4,2024-04-12 00:00:00,true
+25,Microphone,High quality microphone,99.99,59.99,2,2024-07-16 00:00:00,true
+26,Backpack,High quality backpack,59.99,35.99,7,2024-06-22 00:00:00,true
+27,Water Bottle,High quality water bottle,19.99,11.99,6,2024-01-08 00:00:00,true
+28,Fitness Tracker,High quality fitness tracker,49.99,29.99,5,2024-02-15 00:00:00,true
+29,Sunscreen SPF50,High quality sunscreen spf50,14.99,8.99,5,2024-01-10 00:00:00,true
+30,Protein Powder,High quality protein powder,34.99,20.99,7,2024-03-29 00:00:00,true

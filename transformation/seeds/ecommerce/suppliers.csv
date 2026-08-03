@@ -1,0 +1,11 @@
+supplier_id,name,contact_email,phone,country
+1,TechSupply Co,contact@techsupplyco.com,+1-555-0100,US
+2,GlobalParts Inc,contact@globalpartsinc.com,+1-555-0101,CN
+3,FastShip Ltd,contact@fastshipltd.com,+1-555-0102,DE
+4,QualityFirst,contact@qualityfirst.com,+1-555-0103,JP
+5,MegaSource,contact@megasource.com,+1-555-0104,UK
+6,PrimeGoods,contact@primegoods.com,+1-555-0105,IN
+7,ValueChain,contact@valuechain.com,+1-555-0106,BR
+8,DirectLine,contact@directline.com,+1-555-0107,KR
+9,BulkTrade,contact@bulktrade.com,+1-555-0108,TW
+10,SwiftSupply,contact@swiftsupply.com,+1-555-0109,FR
