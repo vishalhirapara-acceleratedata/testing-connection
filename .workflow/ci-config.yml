@@ -1,0 +1,24 @@
+# Durable domain CI configuration — seeded by Vibe Data Studio.
+# The VD_DOMAIN_* coordinate keys are Studio-owned and CONVERGE on every spawn;
+# the per-platform GHA Variable/Secret name-indirection keys (ADR-0018) are
+# seeded once and preserved thereafter (VD-3364 AC, ADR-0019).
+VD_DOMAIN_DATA_PLATFORM: fabric
+VD_DOMAIN_SLUG: vd4303-fabric
+VD_DOMAIN_SCHEMA: dbo
+VD_DOMAIN_FABRIC_WORKSPACE_ID: 60983922-f74e-42f8-bb46-96514b5d25bd
+VD_DOMAIN_FABRIC_WORKSPACE_NAME: ai_pro_wp
+VD_DOMAIN_FABRIC_LAKEHOUSE_ID: c835dc5d-5b08-4c39-8324-6cd6d3080aa3
+VD_DOMAIN_FABRIC_LAKEHOUSE_NAME: data_swim_lh
+VD_DOMAIN_CI_DBT_PROFILE: ephemeral_ci
+VD_DOMAIN_PROD_MANIFEST_SOURCE:
+  mode: artifact
+  workflow: publish-prod-manifest.yml
+  artifact_name: prod-manifest
+  main_branch: main
+AZURE_TENANT_ID_VAR: TENANT_ID
+AZURE_CLIENT_ID_VAR: SPN_CLIENT_ID
+FABRIC_CAPACITY_ID_VAR: FABRIC_CAPACITY_ID
+LLM_API_KEY_VAR: LLM_API_KEY
+LLM_API_URL_VAR: LLM_API_URL
+LLM_MODEL_VAR: LLM_MODEL
+ENTRA_ID_DOMAIN_VAR: ENTRA_ID_DOMAIN
